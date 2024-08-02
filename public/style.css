@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: gray;
+    
+}
+
+h1 {
+    color: #333;
+}
+.container{
+    padding:10px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-container{
+    display: flex;
+    padding:  10px;
+    flex-direction: row;
+    color: beige;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards{
+    height:300px;
+    display: flex;
+    flex-direction: row;
+
+}
+.card {
+    margin: 10px 0;
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
